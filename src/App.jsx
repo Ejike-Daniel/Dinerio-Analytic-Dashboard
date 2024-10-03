@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/shared/Layout'
 import Dashboard from './components/Dashboard'
 import Products from './components/Products'
+import ErrorPage from './components/ErrorPage'
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                     {
                         path: '/',
                         element: <Layout />,
+                        errorElement: <ErrorPage />,
                         children: [
                             {
                                 index: true,
