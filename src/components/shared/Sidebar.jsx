@@ -11,8 +11,7 @@ export default function Sidebar() {
     return (
         <aside className="flex flex-col bg-neutral-900 p-3 w-60 text-white">
             <div className="flex items-center gap-2 px-1 py-3">
-                <FcBullish fontSize={24} />
-                <span className="text-neutral-100 text-lg">Dinerio</span>
+                <FcBullish fontSize={24} />           <span className="text-neutral-100 text-lg">Dinerio</span>
             </div>
             <div className="flex-1 gap-0.5 flex flex-col py-8">
                 {DASHBOARD_SIDEBAR_LINKS.map((item) => (
