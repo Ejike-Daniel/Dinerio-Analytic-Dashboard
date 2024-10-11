@@ -1,5 +1,5 @@
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
-import { barData } from './chartData'
+import { barData } from './utils/chartData'
 
 export default function TransactionChart() {
     return (
