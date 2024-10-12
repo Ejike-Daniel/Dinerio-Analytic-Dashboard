@@ -31,3 +31,19 @@
         @apply text-sky-500 hover:underline;
     }
 }
+
+
+.bg-img {
+    background-image: url('./assets/bg-image.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    background-blend-mode: overlay;
+    background-color: rgba(0,
+            0,
+            0,
+            0.4);
+}
